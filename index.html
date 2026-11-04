@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Cloud - Alfarrel Thariq</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #0078D4, #00B4D8); /* Tema warna Azure */
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 600px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            color: #0078D4;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .nim {
+            font-size: 1.2em;
+            margin-bottom: 25px;
+            color: #e0f2fe;
+            letter-spacing: 2px;
+        }
+        .description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .badge {
+            display: inline-block;
+            background: #fff;
+            color: #0078D4;
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        .badge:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-img">ATS</div>
+        <h1>Alfarrel Thariq Sya'ban</h1>
+        <div class="nim">NIM: 102042400043</div>
+        
+        <p class="description">
+            Selamat datang di portofolio saya! Website statis ini berhasil di-deploy ke cloud menggunakan layanan <strong>Azure Static Web Apps</strong> sebagai bagian dari tugas Praktikum Komputasi Awan.
+        </p>
+        
+        <a href="https://github.com/" target="_blank" class="badge">Lihat Repository GitHub</a>
+    </div>
+</body>
+</html>
